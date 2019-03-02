@@ -1,0 +1,52 @@
+
+        .container {
+            background-color: rgb(132, 200, 240);
+            width: 3800px;
+            height: 620px;
+        }
+
+        #myword1 {
+            height: 200px;
+            width: 620px;
+            position: fixed;
+            left: 350px;
+            top: 250px;
+            background-color: rgb(89, 134, 202);
+            /*position:absolute; left:80px; top:20px;*/
+        }
+
+        #myword2 {
+            height: 200px;
+            width: 620px;
+            position: fixed;
+            left: 350px;
+            top: 300px;
+            background-color: rgb(89, 134, 202);
+            /*position:absolute; left:80px; top:20px;*/
+        }
+
+        #myword3 {
+            height: 200px;
+            width: 620px;
+            position: fixed;
+            left: 350px;
+            top: 350px;
+            background-color: rgb(89, 134, 202);
+        }
+            /*position:absolute; left:80px; top:20px;*/
+            /* #startinstruct {
+                position: fixed;
+                top: 100px;
+
+            } */
+
+            #blanks {
+                height: 200px;
+                width: 600px;
+                position: fixed;
+                left: 500px;
+                top: 200px;
+                /* background-color:  rgb(89, 195, 202);*/
+                /*position:absolute; left:80px; top:20px;*/
+            }
+    
