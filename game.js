@@ -15,8 +15,8 @@
         
         console.log(randomItem);
 
-        document.querySelector("#myword1").innerText = blankword.join(" "); //beginning dashes
-        document.querySelector("#myword2").innerText = "count: " + count;     //beginning count
+       // document.querySelector("#myword1").innerText = blankword.join(" "); //beginning dashes
+      //  document.querySelector("#myword2").innerText = "count: " + count;     //beginning count
 
         console.log(blankword);
         var word_display = 'Word: ';
@@ -64,8 +64,8 @@
               document.querySelector("#myword2").innerText = "count: " + count;
             }
             else{
+                alert('you lose!!'); 
               document.querySelector("#myword1").innerText = randomItem;
-              alert('you lose!!'); 
              // document.querySelector("#myword3").innerText = "Sorry, you lose!!!!";
               start_game();
             }
